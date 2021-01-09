@@ -1,0 +1,39 @@
+.top-bar{
+    background-color: white !important;
+    color: black !important;
+
+}
+.content-nav{
+width: 60%;
+}
+.header-button{
+    border-radius:99px ;
+}
+.btn{
+    width: 20% !important;
+}
+.btn a{
+   color: white !important;
+    text-decoration: none;
+}
+.vertical-line {
+    width: 1px;
+    background-color: silver;
+    height: 100%;
+    float: left;
+    border: 2px ridge silver;
+    border-radius: 2px;
+}
+.menu{
+    background-color: #bc152f;
+    justify-content: center;
+}
+ a{
+    color: silver !important;
+}
+a:hover{
+    color: white !important;
+}
+.dropdown-menu a:hover{
+    color: silver !important;
+}
