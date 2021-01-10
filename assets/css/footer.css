@@ -1,0 +1,20 @@
+.location-content, .footer-content{
+    text-align: left;
+
+}
+
+.footer-content ul li {
+    list-style-type: none !important;
+    margin-top: 5%;
+
+}
+
+.footer-content a{
+color: black !important;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+footer{
+    background-color: #f9f9fa;
+}
