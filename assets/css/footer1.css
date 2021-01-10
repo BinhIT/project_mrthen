@@ -1,0 +1,19 @@
+.footer-1, .footer-2 {
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+.footer-1 {
+    background-color: #fff;
+}
+.footer {
+    padding: 30px 0 0;
+}
+
+span.widget-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+.uppercase, h6, th, span.widget-title {
+    line-height: 1.05;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
