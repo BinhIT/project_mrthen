@@ -17,3 +17,114 @@ span.widget-title {
     letter-spacing: .05em;
     text-transform: uppercase;
 }
+.widget .is-divider {
+    margin-top: .66em;
+}
+.is-divider {
+    height: 3px;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    margin: 1em 0 1em;
+    width: 100%;
+    max-width: 30px;
+}
+
+@media screen and (min-width: 850px)
+.col:first-child .col-inner {
+    margin-left: auto;
+    margin-right: 0;
+}
+.row-dashed .col-inner, .row-solid .col-inner {
+    padding: 15px;
+}
+.col-inner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+a.plain {
+    color: currentColor;
+    transition: color .3s, opacity .3s, transform .3s;
+}
+a {
+    color: #334862;
+    text-decoration: none;
+}
+a, button, input {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+a {
+    background-color: transparent;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+element.style {
+    width: 100px;
+}
+.icon-box-center .icon-box-img {
+    margin: 0 auto 1em;
+}
+.icon-box .icon-box-img {
+    margin-bottom: 1em;
+    max-width: 100%;
+    position: relative;
+}
+.text-center>div, .text-center>div>div, .text-center .is-divider, .text-center .star-rating, .text-center .is-star-rating {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-box-img svg, .icon-box-img img {
+    padding-top: .2em;
+    width: 100%;
+}
+img {
+    transition: opacity 1s;
+    opacity: 1;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+
+.text-center>div, .text-center>div>div, .text-center .is-divider, .text-center .star-rating, .text-center .is-star-rating {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last-reset *:last-child {
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6, .heading-font, .banner h1, .banner h2 {
+    font-weight: 700;
+}
+h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: "Nunito", sans-serif;
+}
+.h5, h5 {
+    font-size: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: .5em;
+    text-rendering: optimizeSpeed;
+}
+
